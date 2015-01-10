@@ -1,0 +1,42 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.modal-content {
+    color: #333;
+}
+
+.modal-header {
+	text-shadow: none;
+}
+
+.modal-body, .modal-footer {
+	font-weight: normal;
+	text-shadow: none;
+	text-align: left;
+}
+
+blockquote {
+	border-left:none;
+	padding: 0 20px;
+	margin:0 0 10px;
+	font-size:inherit;
+}
+
+.home {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-home.jpg") no-repeat top center fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
