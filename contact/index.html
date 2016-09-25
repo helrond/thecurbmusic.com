@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
         <!-- Custom styles for this template -->
         <link href="../css/cover.css" rel="stylesheet">
-        
+
         <link rel="stylesheet" href="../css/main.css">
 
         <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -44,7 +44,23 @@
 
           <div class="inner cover" style="text-align:left">
             <h1 class="cover-heading">For booking and further information</h1>
-            <p class="lead"><a href="mailto:info@thecurbmusic.com">info@thecurbmusic.com</a></p>
+
+            <form id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://thecurbmusic.wufoo.com/forms/z8a17dk08somug/#public">
+
+              <div class="form-group">
+                <label class="sr-only" id="title1" for="Field1">Email<span id="req_1">*</span></label>
+                <input id="Field1" name="Field1" type="email" spellcheck="false" class="form-control" value="" maxlength="255" tabindex="1" placeholder="Email address" required />
+              </div>
+
+              <div class="form-group">
+                <label class="sr-only" id="title2" for="Field2">Message<span id="req_2">*</span></label>
+                <textarea id="Field2" name="Field2" class="form-control" spellcheck="true" rows="5" tabindex="2" onkeyup="" placeholder="Message" required></textarea>
+              </div>
+
+              <input id="saveForm" name="saveForm" class="btn btn-default" type="submit" value="Submit" />
+              <input type="hidden" id="idstamp" name="idstamp" value="16cGCoPKDp1uNbtUQJYvLhmfiYsZuJN7yTpoPOhETcg=" />
+            </form>
+
             <h2>Other sites</h2>
             <ul class="list-unstyled">
               <li class="lead"><a href="http://hillelarnold.com">hillelarnold.com</a></li>
@@ -70,6 +86,8 @@
         <script src="../js/vendor/bootstrap.min.js"></script>
 
         <script src="../js/main.js"></script>
+
+        <script src="../js/wufoo.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
